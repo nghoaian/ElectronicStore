@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="db303837-90f0-4bb4-9f2a-61f181bc1a9d" name="Changes" comment="update complete" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="electronics-store" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="khai" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2eGCLYyjKc5rY38oSNHfsDQCNYK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.Build electronics-store.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Load Gradle Dependencies.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.electronics-store [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ElectronicsStore.executor&quot;: &quot;Run&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Design Pattern/electronics-store&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.38275862&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql_aurora_aws&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Design Pattern\electronics-store\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ElectronicsStore">
+    <configuration name="electronics-store [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ElectronicsStore" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="electronics-store.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tdtu.edu.vn.ElectronicsStore" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.electronics-store [dependencies]" />
+        <item itemvalue="Gradle.electronics-store [dependencies]" />
+        <item itemvalue="Gradle.electronics-store [dependencies]" />
+        <item itemvalue="Gradle.electronics-store [dependencies]" />
+        <item itemvalue="Gradle.electronics-store [dependencies]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-f644763e9732-24fca987" />
+        <option value="jdk-17.0.9-semeru-17.0.9-f644763e9732-99f84e31" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-c0c073db" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db303837-90f0-4bb4-9f2a-61f181bc1a9d" name="Changes" comment="" />
+      <created>1711521473160</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711521473160</updated>
+      <workItem from="1711521474270" duration="1056000" />
+      <workItem from="1711637089352" duration="7328000" />
+      <workItem from="1712166940396" duration="794000" />
+      <workItem from="1712282533119" duration="195000" />
+      <workItem from="1712455334292" duration="1000" />
+      <workItem from="1712467271312" duration="5310000" />
+      <workItem from="1712486039279" duration="3661000" />
+      <workItem from="1712502581789" duration="905000" />
+      <workItem from="1712503536931" duration="2785000" />
+      <workItem from="1712588418487" duration="1524000" />
+      <workItem from="1712630855017" duration="3183000" />
+      <workItem from="1712643490728" duration="5000" />
+      <workItem from="1712657473272" duration="7083000" />
+      <workItem from="1712715117807" duration="6358000" />
+      <workItem from="1712721555340" duration="700000" />
+      <workItem from="1712722421435" duration="13771000" />
+      <workItem from="1712761474365" duration="2112000" />
+      <workItem from="1712798627384" duration="15000" />
+      <workItem from="1712802837542" duration="1728000" />
+      <workItem from="1712843667290" duration="3409000" />
+      <workItem from="1713059762896" duration="207000" />
+      <workItem from="1713192053211" duration="1000" />
+      <workItem from="1713491316194" duration="116000" />
+      <workItem from="1713668907608" duration="595000" />
+      <workItem from="1713693947860" duration="38000" />
+      <workItem from="1713781558180" duration="10613000" />
+      <workItem from="1713863474599" duration="21067000" />
+      <workItem from="1713896467054" duration="3950000" />
+      <workItem from="1713926055445" duration="226000" />
+      <workItem from="1713926292212" duration="9483000" />
+      <workItem from="1713972488402" duration="6067000" />
+      <workItem from="1714012789359" duration="490000" />
+      <workItem from="1714013292273" duration="2553000" />
+      <workItem from="1714020780980" duration="22988000" />
+      <workItem from="1714076376122" duration="128000" />
+      <workItem from="1714102714599" duration="10691000" />
+      <workItem from="1714155446300" duration="15382000" />
+      <workItem from="1714244625118" duration="18503000" />
+      <workItem from="1714318312191" duration="11565000" />
+      <workItem from="1714333590534" duration="49240000" />
+    </task>
+    <task id="LOCAL-00001" summary="update model evaluation">
+      <option name="closed" value="true" />
+      <created>1711638919887</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711638919887</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update security">
+      <option name="closed" value="true" />
+      <created>1712282632557</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712282632557</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update fe (detail, home, user)">
+      <option name="closed" value="true" />
+      <created>1712662308089</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712662308089</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update register">
+      <option name="closed" value="true" />
+      <created>1712762951444</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712762951444</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update change fully except rest api">
+      <option name="closed" value="true" />
+      <created>1713782883939</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713782883939</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update strategy for validate of crud">
+      <option name="closed" value="true" />
+      <created>1713809667863</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713809667863</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update strategy">
+      <option name="closed" value="true" />
+      <created>1713932442738</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713932442738</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update adapter">
+      <option name="closed" value="true" />
+      <created>1713974574895</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713974574895</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update factory in context strategy">
+      <option name="closed" value="true" />
+      <created>1713982406679</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713982406679</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update decorator">
+      <option name="closed" value="true" />
+      <created>1713986077539</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713986077539</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix error and update template pattern">
+      <option name="closed" value="true" />
+      <created>1714075557293</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714075557293</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix error and update template pattern">
+      <option name="closed" value="true" />
+      <created>1714075619274</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714075619274</updated>
+    </task>
+    <task id="LOCAL-00013" summary="complete update &amp; some example endpoint">
+      <option name="closed" value="true" />
+      <created>1714115867984</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714115867984</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update change api">
+      <option name="closed" value="true" />
+      <created>1714244348575</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714244348575</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update and fix error">
+      <option name="closed" value="true" />
+      <created>1714285844762</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714285844762</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update and fix some error">
+      <option name="closed" value="true" />
+      <created>1714318700509</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1714318700509</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update and fix warning">
+      <option name="closed" value="true" />
+      <created>1714335999006</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1714335999006</updated>
+    </task>
+    <task id="LOCAL-00018" summary="complete UserController and HomeController">
+      <option name="closed" value="true" />
+      <created>1714482374148</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1714482374148</updated>
+    </task>
+    <task id="LOCAL-00019" summary="half-update api">
+      <option name="closed" value="true" />
+      <created>1714486087092</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1714486087092</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update complete">
+      <option name="closed" value="true" />
+      <created>1714494890201</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1714494890201</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update complete">
+      <option name="closed" value="true" />
+      <created>1714496113857</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1714496113857</updated>
+    </task>
+    <task id="LOCAL-00022" summary="update complete">
+      <option name="closed" value="true" />
+      <created>1714496123133</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1714496123133</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update model evaluation" />
+    <MESSAGE value="update security" />
+    <MESSAGE value="update fe (detail, home, user)" />
+    <MESSAGE value="update register" />
+    <MESSAGE value="update change fully except rest api" />
+    <MESSAGE value="update strategy for validate of crud" />
+    <MESSAGE value="update strategy" />
+    <MESSAGE value="update adapter" />
+    <MESSAGE value="update factory in context strategy" />
+    <MESSAGE value="update decorator" />
+    <MESSAGE value="fix error and update template pattern" />
+    <MESSAGE value="complete update &amp; some example endpoint" />
+    <MESSAGE value="update change api" />
+    <MESSAGE value="update and fix error" />
+    <MESSAGE value="update and fix some error" />
+    <MESSAGE value="update and fix warning" />
+    <MESSAGE value="complete UserController and HomeController" />
+    <MESSAGE value="half-update api" />
+    <MESSAGE value="update complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="update complete" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/electronics_store$electronics_store__dependencies_.ic" NAME="electronics-store [dependencies] Coverage Results" MODIFIED="1711640933132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
