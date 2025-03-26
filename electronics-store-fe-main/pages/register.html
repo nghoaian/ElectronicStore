@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>
+    Sign Up
+  </title>
+  <link rel="icon" href="https://fptshop.com.vn/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/gh/creativetimofficial/material-dashboard@master/assets/css/material-dashboard.min.css">
+  <script
+    src="https://cdn.jsdelivr.net/gh/creativetimofficial/material-dashboard@master/assets/js/material-dashboard.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="/assets/js/axios.js"></script>
+</head>
+
+<body class="">
+  <main class="main-content  mt-0">
+    <section>
+      <div class="page-header min-vh-100">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-6 d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 start-0 text-center justify-content-center flex-column">
+              <div
+                class="position-relative bg-gradient-primary h-100 m-3 px-7 border-radius-lg d-flex flex-column justify-content-center"
+                style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/material-dashboard/master/assets/img/illustrations/illustration-signup.jpg'); background-size: cover;">
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-5 col-md-7 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-5">
+              <div class="card card-plain">
+                <div class="card-header">
+                  <h4 class="font-weight-bolder">Sign Up</h4>
+                  <p class="mb-0">Enter your email and password to register</p>
+                </div>
+                <div class="card-body">
+                  <form role="form">
+                    <div class="input-group input-group-outline mb-3">
+                      <label class="form-label">Name</label>
+                      <input type="text" class="form-control" name="name" required>
+                    </div>
+                    <div class="input-group input-group-outline mb-3">
+                      <label class="form-label">Email</label>
+                      <input type="email" class="form-control" name="email" required>
+                    </div>
+                    <div class="input-group input-group-outline mb-3">
+                      <label class="form-label">Phone</label>
+                      <input type="number" class="form-control" name="phone" required>
+                    </div>
+                    <div class="input-group input-group-outline mb-3">
+                      <label class="form-label">Password</label>
+                      <input type="password" class="form-control" name="password" required>
+                    </div>
+                    <div class="input-group input-group-outline mb-3">
+                      <label class="form-label">Confirm Password</label>
+                      <input type="password" class="form-control" name="confirm-password" required>
+                    </div>
+                    <p class="error-message" style="color: red; font-size: 14px"></p>
+                    <div class="form-check form-check-info text-start ps-0">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" name="term"
+                        checked>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        I agree the <a href="javascript:;" class="text-dark font-weight-bolder">Terms and Conditions</a>
+                      </label>
+                    </div>
+                    <div class="text-center">
+                      <button type="submit" class="btn btn-lg bg-gradient-primary btn-lg w-100 mt-4 mb-0">Sign
+                        Up</button>
+                    </div>
+                  </form>
+                  <script>
+                    document.querySelector('form').addEventListener('submit', async function (e) {
+                      e.preventDefault();
+
+                      var username = document.querySelector('input[name="name"]').value;
+                      var email = document.querySelector('input[name="email"]').value;
+                      var phone = document.querySelector('input[name="phone"]').value;
+                      var password = document.querySelector('input[name="password"]').value;
+                      var confirmPassword = document.querySelector('input[name="confirm-password"]').value;
+
+                      if (password !== confirmPassword) {
+                        var errorConfirm = document.getElementById('error-message');
+                        errorConfirm.textContent = 'Passwords do not match';
+                        return;
+                      }
+
+                      try {
+                        const res = await axios.post(
+                          "http://localhost:8080/api/users/register",
+                          {
+                            username,
+                            email,
+                            phone,
+                            password,
+                          }
+                        );
+                        window.location.href = "/";
+                      } catch (error) {
+                        console.error(error);
+                        if (error.response) {
+                          const errorMessage = document.querySelector(".error-message");
+                          errorMessage.innerHTML = error.response.data;
+                        } else {
+                          console.log("Error1", error.message);
+                        }
+                      }
+                    });
+                  </script>
+                </div>
+                <div class="card-footer text-center pt-0 px-lg-2 px-1">
+                  <p class="mb-2 text-sm mx-auto">
+                    Already have an account?
+                    <a href="../" class="text-primary text-gradient font-weight-bold">Sign in</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script>
+    var win = navigator.platform.indexOf('Win') > -1;
+    if (win && document.querySelector('#sidenav-scrollbar')) {
+      var options = {
+        damping: '0.5'
+      }
+      Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+    }
+  </script>
+</body>
+
+</html>
